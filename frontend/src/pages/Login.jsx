@@ -13,7 +13,7 @@ function Login({ onLogin, onShowRegister }) {
     try {
 
       const response = await axios.post(
-        "http://localhost:5000/api/auth/login",
+        "https://lead-management-system-gtzn.onrender.com/api/auth/login",
         {
           email,
           password

@@ -35,7 +35,7 @@ function EditLead({
         localStorage.getItem("token");
 
       await axios.put(
-        `http://localhost:5000/api/leads/${lead.id}`,
+        `https://lead-management-system-gtzn.onrender.com/api/leads/${lead.id}`,
         {
           name,
           email,
