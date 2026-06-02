@@ -5,7 +5,7 @@ const router =
 express.Router();
 
 const authMiddleware =
-require("../middleware/authMiddleware");
+require("../Middleware/authMiddleware");
 
 const externalApiController =
 require("../Controllers/externalApiController");

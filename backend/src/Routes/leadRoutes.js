@@ -3,10 +3,10 @@ const express = require("express");
 const router = express.Router();
 
 const authMiddleware =
-require("../middleware/authMiddleware");
+require("../Middleware/authMiddleware");
 
 const authorizeRoles =
-require("../middleware/roleMiddleware");
+require("../Middleware/roleMiddleware");
 
 const leadController =
 require("../Controllers/leadController");
