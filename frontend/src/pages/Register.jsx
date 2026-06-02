@@ -15,7 +15,7 @@ function Register({ onBackToLogin }) {
     try {
 
       await axios.post(
-        "https://lead-management-system-gtzn.onrender.com/api/auth/register",
+        "http://localhost:5000/api/auth/register",
         {
           name,
           email,

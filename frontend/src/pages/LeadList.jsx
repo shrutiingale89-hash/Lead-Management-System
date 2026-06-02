@@ -26,7 +26,7 @@ function LeadList({ onBack, onEdit }) {
 
       const response =
         await axios.get(
-          `https://lead-management-system-gtzn.onrender.com/api/leads?search=${search}&status=${status}`,
+          `http://localhost:5000/api/leads?search=${search}&status=${status}`,
           {
             headers: {
               Authorization:

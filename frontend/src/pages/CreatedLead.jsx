@@ -20,7 +20,7 @@ function CreateLead({ onBack }) {
         localStorage.getItem("token");
 
       await axios.post(
-        "https://lead-management-system-gtzn.onrender.com/api/leads",
+        "http://localhost:5000/api/leads",
         {
           name,
           email,
