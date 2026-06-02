@@ -1,7 +1,7 @@
 const express = require("express");
 const cors = require("cors");
 const authRoutes = require("./Routes/authRoute");
-const externalApiRoutes =require("./routes/externalApiRoutes");
+const externalApiRoutes =require("./Routes/externalApiRoutes");
 
 const leadRoutes =require("./Routes/leadRoutes");
 
